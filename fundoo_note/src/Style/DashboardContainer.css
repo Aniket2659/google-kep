@@ -1,0 +1,168 @@
+/* Header Logo */
+.header-logo {
+  margin-right: 8px;
+  width: 30px;
+  height: 30px;
+}
+
+/* Search Bar */
+.search-bar {
+  position: relative;
+  border-radius: 5px;
+  background-color: #e2ebf0;
+  margin-right: 220px;
+  margin-left: 100px;
+  width: 50%;
+  height: 45px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.search-bar-icon {
+  padding: 10px;
+  height: 100%;
+  position: absolute;
+  pointer-events: none;
+  justify-content: center;
+  margin-top: 3px;
+  margin-left: 5px;
+}
+
+.search-bar-input {
+  color: inherit;
+  padding-left: 40px;
+  margin-top: 8px;
+  width: 90%;
+  height: 25px;
+}
+
+/* DashboardContainer.css */
+.dashboard-container {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.content-container {
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100%;
+}
+
+.note-input-container {
+display: flex;
+justify-content: center;
+width: 100%;
+margin-top: 20px;
+}
+
+.notes-display-container {
+width: 100%;
+display: flex;
+justify-content: center;
+margin-top: 20px;
+padding: 0 20px;
+}
+@media (max-width: 768px) {
+  .search-bar {
+    width: 40%;
+  }
+
+  .search-bar-input {
+    width: 85%;
+  }
+
+  .note-input-container {
+    width: 95%;
+  }
+
+  .notes-display-container {
+    padding: 0 10px;
+  }
+
+  .appbar .MuiToolbar-root {
+    padding: 0 8px;
+  }
+
+  .appbar .MuiToolbar-root .MuiIconButton-root {
+    padding: 8px;
+  }
+
+  .appbar .MuiToolbar-root .MuiAvatar-root {
+    width: 32px;
+    height: 32px;
+  }
+
+  .appbar .MuiToolbar-root .MuiTypography-root {
+    font-size: 1rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+@media (max-width: 600px) {
+  .search-bar {
+    width: 30%;
+  }
+
+  .search-bar-input {
+    width: 80%;
+  }
+
+  .note-input-container {
+    width: 100%;
+  }
+
+  .notes-display-container {
+    padding: 0 5px;
+  }
+
+  .appbar .MuiToolbar-root {
+    padding: 0 4px;
+  }
+
+  .appbar .MuiToolbar-root .MuiIconButton-root {
+    padding: 6px;
+  }
+
+  .appbar .MuiToolbar-root .MuiAvatar-root {
+    width: 28px;
+    height: 28px;
+  }
+
+  .appbar .MuiToolbar-root .MuiTypography-root {
+    font-size: 0.875rem;
+    max-width: 100px;
+  }
+
+  .appbar .MuiToolbar-root .header-logo {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .search-bar {
+    width: 25%;
+  }
+
+  .search-bar-input {
+    width: 75%;
+    font-size: 12px;
+  }
+
+  .appbar .MuiToolbar-root .MuiIconButton-root {
+    padding: 4px;
+  }
+
+  .appbar .MuiToolbar-root .MuiTypography-root {
+    font-size: 0.75rem;
+    max-width: 80px;
+  }
+
+  .appbar .MuiToolbar-root .header-logo {
+    width: 20px;
+    height: 20px;
+  }
+}

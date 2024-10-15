@@ -1,0 +1,82 @@
+.note-container {
+  padding: 10px;
+  width: 650px;
+  margin: 20px auto;
+  border-radius: 8px;
+}
+
+.note-input {
+  padding: 6px;
+  font-size: 14px;
+  font-weight: 400;
+  border: 1px solid #d3d3d3;
+  border-radius: 5px;
+}
+
+.icon-buttons {
+  display: flex;
+}
+
+.expandable-input {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  cursor: pointer;
+  border: 3px solid #d3d3d3;  
+  border-radius: 8px;
+}
+
+.title-input {
+  margin-bottom: 5px;
+}
+
+.textarea-input {
+  margin-bottom: 5px;
+}
+
+.action-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-top: 5px;
+}
+
+.placeholder-text {
+  color: #888; 
+  font-size: 14px;
+  font-weight: 400;
+}
+@media  (max-width: 768px) {
+  .note-container {
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  .expandable-input {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .icon-buttons {
+    justify-content: space-around;
+    margin-top: 10px;
+  }
+
+  .action-buttons {
+    justify-content: space-between;
+  }
+}
+
+@media  (max-width: 480px) {
+  .note-container {
+    width: 95%;
+  }
+
+  .note-input {
+    font-size: 12px;
+  }
+
+  .placeholder-text {
+    font-size: 12px;
+  }
+}
